@@ -1,7 +1,6 @@
 Wireshark Traffic Analysis Lab
-Objective
+Objective:  Analyze live network traffic using Wireshark.
 
-Analyze live network traffic using Wireshark.
 Tools Used:
     Ubuntu 26.04 LTS
     Wireshark 4.6.4
@@ -17,16 +16,17 @@ Findings:
 
 Analysis:
 The Ubuntu VM sent DNS requests to the DNS server. The DNS server responded with domain resolution information.
-Lessons Learned
 
-    DNS converts domain names into IP addresses.
-    Wireshark can capture and analyze live network traffic.
-    DNS queries and responses can be observed in real time.
+Lessons Learned:
+- DNS converts domain names into IP addresses.
+- Wireshark can capture and analyze live network traffic.
+- DNS queries and responses can be observed in real time.
 
 
 
 TLS Analysis
 Filter Used: tls
+
 Findings:
     Observed TLSv1.3 encrypted traffic.
     HTTPS communication was occurring over port 443.
